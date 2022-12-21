@@ -4,6 +4,6 @@ Site showcasing 3 basic styles of programming on websites:
 * wa
 * no-js
 
-[site](UnnamedShadow.github.io/scriptRblog/index.html)
+[site](https://unnamedshadow.github.io/scriptRblog/)
 
 [raw](https://github.com/UnnamedShadow/unnamedshadow.github.io/edit/main/scriptRblog)
