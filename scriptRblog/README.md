@@ -6,4 +6,4 @@ Site showcasing 3 basic styles of programming on websites:
 
 [site](UnnamedShadow.github.io/scriptRblog/index.html)
 
-[raw](github.com/UnnamedShadow/scriptRblog)
+[raw](https://github.com/UnnamedShadow/unnamedshadow.github.io/edit/main/scriptRblog)
