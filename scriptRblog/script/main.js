@@ -1,10 +1,10 @@
-document.onload = function () {
-  const navbar = document.getElementsByTagName("nav")[0];
+window.onload = function () {
+  console.log("Running onload");
+  const navbar = document.getElementById("navbar");
   const iframe = document.getElementsByTagName("iframe")[0];
-
   for (var i = 0; i < navbar.childElementCount; i++) {
     navbar.children[i].addEventListener("click", function () {
-      iframe.src = "./" + this.innerHTML + ".html";
+      iframe.setAttribute("src", this.innerHTML + ".html");
     });
   }
 };
