@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
-* {
+:root {
   font-family: "Inconsolata", monospace;
+  --color-primary: #e8e6e3;
+  --background-primary: #181a1b;
+  --background-secondary: #24292d;
+  --accent-primary: #1b1f23;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--color-primary);
+  margin: 0;
 }
 
 div,
@@ -10,4 +20,9 @@ div,
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

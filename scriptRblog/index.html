@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./style/shared.css" />
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <script src="./script/main.js"></script>
     <meta
       name="description"
       content="It's a cool website showcasing some cool types of programs on webpages."
@@ -18,7 +21,7 @@
     />
     <title>scriptRblog</title>
   </head>
-  <body>
+  <body class="div">
     <header class="div">
       <a href="./index.html">
         <div class="logo">
@@ -26,14 +29,21 @@
           <h1>ScriptRblog</h1>
         </div>
       </a>
-      <div><span>Cool web features</span></div>
+      <div><span>Main web programming types:</span></div>
     </header>
-    <nav></nav>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex maxime culpa
-    unde officiis illum fugiat minima molestias error cumque, perspiciatis
-    expedita tenetur est dolorem sint delectus modi nesciunt deleniti.
+    <main class="div">
+      <nav>
+        <h3>js</h3>
+        <h3>wasm</h3>
+        <h3>no-js</h3>
+      </nav>
+      <article class="div">
+        <iframe src="" frameborder="0"></iframe>
+      </article>
+    </main>
     <footer class="div">
-      <div class="creator"><address>Made by Unnamed Shadow</address></div>
+      <span>Made by</span>
+      <address>Unnamed Shadow</address>
     </footer>
   </body>
 </html>

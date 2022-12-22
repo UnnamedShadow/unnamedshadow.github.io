@@ -1,0 +1,12 @@
+nav h3:hover {
+  border-left: 0.25rem solid var(--background-secondary);
+  transition: border-left 0.1s ease-in-out;
+}
+
+nav h3 {
+  cursor: pointer;
+}
+
+nav {
+  background-color: var(--accent-primary);
+}
