@@ -1,0 +1,11 @@
+p.codepen {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cp_embed_wrapper {
+  width: 100%;
+  height: 100% !important;
+}

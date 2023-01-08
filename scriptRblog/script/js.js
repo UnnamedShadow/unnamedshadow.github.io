@@ -1,38 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>js</title>
-    <link rel="stylesheet" href="./style/shared.css" />
-    <link rel="stylesheet" href="./style/js.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"
-      integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-twilight.min.css"
-      integrity="sha512-6rkEt5SymQMcnlRz1dHwAMSfMnDaFX28qdr3wyaa+XRCR8dTSWE4U6vjiTVuB6Mq9FgYOLVOTk0lrOeCnodcgA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body class="ldiv">
-    <h2>JavaScript</h2>
-    <span>
-      JavaScript is the most popular web programming language. Examples:
-    </span>
-    <article class="ldiv">
-      <h4>TicTacToe</h4>
-      <iframe src="./p5doc.html" frameborder="0"></iframe>
-      <script>
-        Prism.highlightAll();
-      </script>
-      <pre><code class="language-javascript">
 // tic tac toe in p5.js
 
 // implementing basic functions that should be in the language
@@ -130,10 +95,3 @@ function checkWin() {
     }
   });
 }
-
-</code></pre>
-      <embed src="" type="" />
-    </article>
-    <!-- space for more -->
-  </body>
-</html>

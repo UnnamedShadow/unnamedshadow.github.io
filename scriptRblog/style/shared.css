@@ -15,11 +15,16 @@ body {
 }
 
 div,
-.div {
+.div,
+.ldiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.ldiv {
+  align-items: flex-start;
 }
 
 a {
