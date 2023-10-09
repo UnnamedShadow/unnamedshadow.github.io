@@ -2,4 +2,4 @@
 
 ## A website for my projects
 
-- [scriptRblog](./scriptRblog/README.md)
+- [scriptRblog](./scriptRblog/)
